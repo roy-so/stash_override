@@ -4,3 +4,39 @@ dns:
   nameserver-policy:
     +.cn: 183.60.83.19
     +.qq.com: 183.60.83.19
+    +.gtimg.com: 183.60.83.19
+    +.zhihu.com: 183.60.83.19
+    +.atianqi.com: 183.60.83.19
+    +.bilibili.com: 183.60.83.19
+    +.biliapi.com: 183.60.83.19
+    +.qq.com: 183.60.83.19
+    +.soso.com: 183.60.83.19
+    +.weixin.com: 183.60.83.19
+    +.hitv.com: 183.60.83.19
+    +.hunantv.com: 183.60.83.19
+    +.mgtv.com: 183.60.83.19
+    +.soku.com: 183.60.83.19
+    +.ykimg.com: 183.60.83.19
+    +.iqiyi.com: 183.60.83.19
+    +.iqiyipic.com: 183.60.83.19
+    +.qy.net: 183.60.83.19
+    +.cibntv.net: 183.60.83.19
+    +.gamenow.club: 183.60.83.19
+    +.kumiao.com: 183.60.83.19
+    +.kumiao.tv: 183.60.83.19
+    +.kuxiaomiao.com: 183.60.83.19
+    +.kuxiaomiao.net: 183.60.83.19
+    +.soku.com: 183.60.83.19
+    +.tudou.com: 183.60.83.19
+    +.wenyupages.com: 183.60.83.19
+    +.wwc.alicdn.com: 183.60.83.19
+    +.ykimg.com: 183.60.83.19
+    +.yodou.com: 183.60.83.19
+    +.yoqoo.com: 183.60.83.19
+    +.yoqoo.net: 183.60.83.19
+    +.yoqoo.tv: 183.60.83.19
+    +.youku.com: 183.60.83.19
+    +.youku.org: 183.60.83.19
+    +.youqoo.net: 183.60.83.19
+    +.51cto.com: 183.60.83.19
+    +.geekbang.org: 183.60.83.19
