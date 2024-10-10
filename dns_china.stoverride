@@ -1,7 +1,6 @@
+name: dns_china
+
 dns:
-  nameserver-policy: #!replace
-    '+.ddns.net': 1.1.1.1
-    '+.surfshark.com': 1.1.1.1
-    '+.labproof.internal': 172.16.88.88
+  nameserver-policy:
     +.cn: 183.60.83.19
     +.qq.com: 183.60.83.19
