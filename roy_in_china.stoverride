@@ -24,3 +24,29 @@ dns:
     geoip-code: CN
     ipcidr:
       - 240.0.0.0/4
+
+
+rules: #!replace
+  - IP-CIDR,172.16.88.0/24,Home-Wireguard-0,no-resolve
+  - IP-CIDR,172.16.78.0/24,Home-Wireguard-0,no-resolve
+  - IP-CIDR,172.16.68.0/24,Home-Wireguard-0,no-resolve
+  - PROCESS-NAME,MSTeams,MeetingApps
+  - PROCESS-NAME,zoom.us,MeetingApps
+  - DOMAIN-SUFFIX,labproof.internal,Home-Wireguard-0
+  - DOMAIN-SUFFIX,openai.com,AI
+  - DOMAIN-KEYWORD,openaicom-api-,AI
+  - DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-,AI
+  - DOMAIN-KEYWORD,openai,AI
+  - DOMAIN-SUFFIX,anthropic.com,AI
+  - DOMAIN-SUFFIX,claude.ai,AI 
+  - IP-CIDR,160.79.104.0/23,AI,no-resolve
+  - IP-CIDR,1.1.1.1/32,Global_Internet,no-resolve
+  - IP-CIDR,8.8.8.8/32,Global_Internet,no-resolve
+  - GEOSITE,google,Global_Internet
+  - GEOSITE,whatsapp,Global_Internet
+  - GEOSITE,facebook,Global_Internet
+  - GEOSITE,instagram,Global_Internet
+  - GEOSITE,telegram,Global_Internet
+  - GEOSITE,microsoft,Global_Internet
+  - GEOSITE,geolocation-!cn,Global_Internet
+  - MATCH,China
