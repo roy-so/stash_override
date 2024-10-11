@@ -1,0 +1,26 @@
+dns: 
+  default-nameserver: #!replace
+    - 1.1.1.1
+    - 9.9.9.9
+    - 114.114.114.114
+  nameserver: #!replace
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter: #!replace
+    - '*.lan'
+    - '*.internal'
+    - '*.labproof.internal'
+    - '*.peplink.com'
+    - '*.smartone.com'
+    - home-opnsense.ddns.net
+    - homewanip.ddns.net
+  nameserver-policy: #!replace
+    +.labproof.internal: 172.16.88.88
+    "geosite:geolocation-!cn": 'doq://Clash-Roys-iPhone-DoH-c34b2d.dns.nextdns.io:853'
+  fallback: 
+    - doq://Clash-Roys-iPhone-DoH-c34b2d.dns.nextdns.io:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
