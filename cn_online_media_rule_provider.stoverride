@@ -1,5 +1,13 @@
 name: cn_online_media_rule_provider
 
+proxy-groups:
+  - name: CN-Online-Streaming
+    type: select
+    proxies:
+      - Tencent-Cloud
+      - DIRECT
+      - Home
+      - Global-Internet
 
 rule-providers:
   cn_online_media:
@@ -7,3 +15,6 @@ rule-providers:
     format: yaml 
     interval: 3600
     url: https://roy-so.github.io/stash_override/cn_online_media.yaml
+
+rules:
+  - RULE-SET,cn_online_media,CN-Online-Streaming
