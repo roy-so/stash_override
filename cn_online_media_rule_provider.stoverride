@@ -1,3 +1,6 @@
+name: cn_online_media_rule_provider.
+
+
 rule-providers:
   cn_online_media:
     behavior: domain
