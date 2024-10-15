@@ -1,0 +1,6 @@
+rule-providers:
+  cn_online_media:
+    behavior: domain
+    format: yaml 
+    interval: 3600
+    url: https://roy-so.github.io/stash_override/cn_online_media.yaml
