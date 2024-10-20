@@ -3,7 +3,6 @@ name: dns_china
 dns:
   nameserver-policy:
     +.cn: 183.60.83.19
-    +.qq.com: 183.60.83.19
     +.gtimg.com: 183.60.83.19
     +.zhihu.com: 183.60.83.19
     +.atianqi.com: 183.60.83.19
@@ -15,7 +14,6 @@ dns:
     +.hitv.com: 183.60.83.19
     +.hunantv.com: 183.60.83.19
     +.mgtv.com: 183.60.83.19
-    +.soku.com: 183.60.83.19
     +.ykimg.com: 183.60.83.19
     +.iqiyi.com: 183.60.83.19
     +.iqiyipic.com: 183.60.83.19
@@ -30,7 +28,6 @@ dns:
     +.tudou.com: 183.60.83.19
     +.wenyupages.com: 183.60.83.19
     +.wwc.alicdn.com: 183.60.83.19
-    +.ykimg.com: 183.60.83.19
     +.yodou.com: 183.60.83.19
     +.yoqoo.com: 183.60.83.19
     +.yoqoo.net: 183.60.83.19
